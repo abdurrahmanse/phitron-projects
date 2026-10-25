@@ -9,6 +9,7 @@ Jupyter Notebook assignments, midterm & final exam solutions, and datasets from 
 | 🐍 AI Programming With Python | `AI Programming With Python/` | 3 assignments, midterm, final exam |
 | 🤖 Machine Learning | `Machine Learning/` | 3 assignments, final exam |
 | 🧠 Deep Learning | `Deep learning/` | Midterm, final exam |
+| ⚡ Advanced Deep Learning | `advance Deep learning/` | Midterm (CNNs), final exam (RNNs/LSTMs), PyTorch weights & face dataset |
 
 ## Structure
 
@@ -23,12 +24,18 @@ Jupyter Notebook assignments, midterm & final exam solutions, and datasets from 
 ├── Deep learning/
 │   ├── Final/               # DL Final Exam
 │   └── mid/                 # Midterm Exam
+├── advance Deep learning/
+│   ├── faces/               # Face dataset for age detection (train images & labels)
+│   ├── final exam/          # Advance Deep Learning Final Exam (RNNs, LSTMs, GRUs)
+│   ├── Copy_of_Advance_DL_Mid_Term_Exam_Question.ipynb  # Midterm Exam (CNNs, PyTorch)
+│   ├── best_model.pth       # Trained PyTorch model checkpoint
+│   └── training_curves.png  # Loss/accuracy curves & confusion matrix
 └── data/                    # Shared datasets + 50+ beginner CSVs
 ```
 
 ## Datasets
 
-`data/` includes `titanic`, `adult_income`, `house_price_regression`, `masters_data_science_performance`, and a `beginner_datasets/` folder with 50+ CSVs (iris, diabetes, boston, heart, amazon, gold, and more).
+`data/` includes `titanic`, `adult_income`, `house_price_regression`, `masters_data_science_performance`, and a `beginner_datasets/` folder with 50+ CSVs (iris, diabetes, boston, heart, amazon, gold, and more). In addition, `advance Deep learning/faces/` contains facial image data for age-group classification.
 
 ## Requirements
 
@@ -36,7 +43,7 @@ Jupyter Notebook assignments, midterm & final exam solutions, and datasets from 
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 ```
 
-> Deep Learning notebooks may require `tensorflow` or `torch`.
+> Deep Learning and Advanced Deep Learning notebooks require `torch`, `torchvision`, and/or `tensorflow`.
 
 ## Usage
 
