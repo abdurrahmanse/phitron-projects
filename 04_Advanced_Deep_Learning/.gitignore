@@ -1,5 +1,5 @@
-faces/Train/
-faces/*.csv
+**/faces/Train/
+**/faces/*.csv
 
 *.pth
 *.pt

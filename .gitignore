@@ -1,0 +1,21 @@
+# OS & Editor
+.DS_Store
+.ipynb_checkpoints/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model checkpoints & large logs
+*.pth
+*.pt
+*.ckpt
+*.log
+runs/
+outputs/
